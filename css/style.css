@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#chess {
+    width: 600px;
+    height: 600px;
+    border: 7px solid #702d23;
+    /* border: 7px solid #50312b; */
+    /*Pour centrer le grand cadre */
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    /* grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px; */
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.red_border {
+    border: 2px solid red;
+    color: red;
+}
+
+
+/* @media (max-width:700px) {
+    #chess {
+        margin-top: 600px;
+    }
+} */
